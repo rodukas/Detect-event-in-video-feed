@@ -1,0 +1,16 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Python cache & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local CCTV session checkpoints & generated sample feeds
+.cctv_session_cache/
+.cctv_session_checkpoint.json
+sample_cctv_feeds/
+*.tmp
